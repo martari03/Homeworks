@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(antiquewhite, beige);
+}
+
+h1, h2 {
+    border-radius: 25px;
+    text-align: center;
+    background: gold;
+    color: darkblue;
+}
+
+img {
+    min-width: 200px;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    border-radius: 5px;
+    width: fit-content;
+    background: #fdfdbc;
+    color: darkblue;
+}
+
+li {
+    border-radius: 25px;
+    width: fit-content;
+    background: aliceblue;
+    color: darkblue;
+}
