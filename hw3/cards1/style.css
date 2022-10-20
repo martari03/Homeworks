@@ -19,6 +19,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
 .description {
@@ -29,4 +30,23 @@
     box-sizing: border-box;
     padding: 10px;
     border: thin groove #292929;
+}
+
+.circle {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: thin solid #a0a0a0;
+    position: absolute;
+    top: -50px;
+    background: #ffffff;
+}
+
+.fa-solid {
+    color: #ec9114;
+    font-size: 30px;
 }
