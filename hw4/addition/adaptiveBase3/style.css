@@ -20,7 +20,6 @@
 
 .bcdefgh {
     display: flex;
-    column-gap: 1vh;
     justify-content: center;
     align-items: center;
 }
@@ -42,19 +41,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .group {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 1vh;
+    column-gap: 1vw;
 }
 
 .square {
     margin: 1vh;
     display: flex;
-    width: 21.9vw;
+    width: 21.7vw;
     height: 33vh;
     background: #d9d9d9;
     box-sizing: border-box;

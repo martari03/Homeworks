@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 1vh;
 }
 
 .a {
@@ -19,14 +20,14 @@
 
 .bc {
     display: flex;
-    column-gap: 1vh;
+    column-gap: 1vw;
     justify-content: center;
     align-items: center;
 }
 
 .b {
     display: flex;
-    width: 68vw;
+    width: 67.5vw;
     height: 68vh;
     background: #d9d9d9;
     box-sizing: border-box;
@@ -37,7 +38,7 @@
 
 .c {
     display: flex;
-    width: 30vw;
+    width: 29.5vw;
     height: 68vh;
     background: #d9d9d9;
     box-sizing: border-box;

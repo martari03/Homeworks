@@ -11,7 +11,7 @@
     height: 25vh;
     background: #d9d9d9;
     box-sizing: border-box;
-    margin: 2vh;
+    margin: 1vh;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -19,14 +19,14 @@
 
 .bcdef {
     display: flex;
-    column-gap: 1vh;
+    column-gap: 1vw;
     justify-content: center;
     align-items: center;
 }
 
 .f {
     display: flex;
-    width: 30vw;
+    width: 29.5vw;
     height: 69vh;
     background: #d9d9d9;
     box-sizing: border-box;
@@ -44,7 +44,7 @@
 
 .b {
     display: flex;
-    width: 68.4vw;
+    width: 68vw;
     height: 34vh;
     background: #d9d9d9;
     box-sizing: border-box;
@@ -55,7 +55,7 @@
 
 .cde {
     display: flex;
-    column-gap: 1vh;
+    column-gap: 1vw;
     justify-content: center;
     align-items: center;
 }
@@ -63,7 +63,7 @@
 .square {
     margin-top: 2vh;
     display: flex;
-    width: 22.4vw;
+    width: 22vw;
     height: 33vh;
     background: #d9d9d9;
     box-sizing: border-box;

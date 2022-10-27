@@ -1,10 +1,10 @@
 @media screen and (min-width: 0) and (max-width: 992px) {
     .main {
-        margin: 1vh;
+        margin: 1%;
     }
 
     .a {
-        width: 97vw;
+        width: 96vw;
         height: 18vh;
     }
 
@@ -13,12 +13,11 @@
     }
 
     .bcdefg {
-        width: 97vw;
+        width: 96vw;
     }
 
     .h {
-        margin-top: 1vh;
-        width: 97vw;
+        width: 96vw;
         height: 28vh;
     }
 
