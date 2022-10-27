@@ -1,0 +1,155 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.number {
+    color: #D47476;
+    font-size: 30px;
+}
+
+.description {
+    color: #e6e8e5;
+    font-size: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+}
+
+.lh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1vw;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 20vw;
+    height: 10vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 79vw;
+    height: 10vh;
+}
+
+.st, .nst, .batr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+}
+
+.nbatrst, .ba, .tr {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 1vw;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 20vw;
+    height: 56vh;
+}
+
+.storeLocator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 20vw;
+    height: 10vh;
+    column-gap: 1vh;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 20vw;
+    height: 10vh;
+    column-gap: 1vh;
+}
+
+.bathSectionIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 58vw;
+    height: 27vh;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 20vw;
+    height: 27vh;
+}
+
+.typesOfBaths {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 58vw;
+    height: 50vh;
+}
+
+.typesOfBaths {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 58vw;
+    height: 50vh;
+}
+
+.relatedProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 20vw;
+    height: 50vh;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #676767;
+    width: 100vw;
+    height: 10vh;
+}

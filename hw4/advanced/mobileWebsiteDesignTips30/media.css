@@ -1,0 +1,67 @@
+@media screen and (min-width: 0) and (max-width: 992px) {
+    .lh {
+        column-gap: 0;
+    }
+
+    .logo {
+        width: 20.5vw;
+    }
+
+    .header {
+        box-sizing: border-box;
+        border-left: 2px solid #D47476;
+        width: 79.5vw;
+    }
+
+    .nbatrst {
+        flex-direction: column;
+        row-gap: 1vh;
+    }
+
+    .tr {
+        flex-direction: column;
+        row-gap: 1vh;
+    }
+
+    .nav {
+        width: 100vw;
+    }
+
+    .bathSectionIntro {
+        width: 79vw;
+    }
+
+    .typesOfBaths {
+        width: 100vw;
+    }
+
+    .relatedProducts {
+        width: 100vw;
+        height: 27vh;
+        margin-bottom: 11vh;
+    }
+
+    .nbatrst {
+        position: relative;
+    }
+
+    .batr {
+        position: relative;
+    }
+
+    .st {
+        position: absolute;
+        top: 380.5vw;
+        z-index: 1;
+        flex-direction: row;
+        column-gap: 1vw;
+    }
+
+    .storeLocator {
+        width: 49.5vw;
+    }
+
+    .tools {
+        width: 49.5vw;
+    }
+}
