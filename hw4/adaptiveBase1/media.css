@@ -1,0 +1,22 @@
+@media screen and (min-width: 0) and (max-width: 992px) {
+    .a {
+        margin: 2vh;
+        height: 13vh;
+    }
+
+    .bc {
+        flex-direction: column;
+    }
+
+    .b {
+        width: 98vw;
+        height: 66vh;
+    }
+
+    .c {
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        width: 98vw;
+        height: 13vh;
+    }
+}

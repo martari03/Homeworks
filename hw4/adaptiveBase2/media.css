@@ -1,0 +1,27 @@
+@media screen and (min-width: 0) and (max-width: 992px) {
+    .a {
+        margin: 2vh;
+        height: 13vh;
+    }
+
+    .bcdef {
+        flex-direction: column;
+    }
+
+    .b {
+        width: 98.6vw;
+        height: 45vh;
+    }
+
+    .f {
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        width: 98.6vw;
+        height: 13vh;
+    }
+
+    .square{
+        width: 32vw;
+        height: 20vh;
+    }
+}
