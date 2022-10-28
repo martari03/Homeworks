@@ -57,7 +57,7 @@ p {
     row-gap: 1vh;
 }
 
-.nbatrst, .ba, .tr {
+.ba, .tr, .nbatrst {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -72,6 +72,7 @@ p {
     background: #676767;
     width: 20vw;
     height: 56vh;
+    position: relative;
 }
 
 .storeLocator {
@@ -142,6 +143,11 @@ p {
     background: #676767;
     width: 20vw;
     height: 50vh;
+}
+
+
+.st_2 {
+    display: none;
 }
 
 .footer {

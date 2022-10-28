@@ -38,22 +38,14 @@
     .relatedProducts {
         width: 100vw;
         height: 27vh;
-        margin-bottom: 11vh;
-    }
-
-    .nbatrst {
-        position: relative;
-    }
-
-    .batr {
-        position: relative;
     }
 
     .st {
-        position: absolute;
-        top: 380.5vw;
-        z-index: 1;
-        flex-direction: row;
+        display: none;
+    }
+
+    .st_2 {
+        display: flex;
         column-gap: 1vw;
     }
 
