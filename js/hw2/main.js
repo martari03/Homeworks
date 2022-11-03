@@ -1,5 +1,15 @@
 //- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-let arr = ['hi!', 52, true, 567, false, [25, 15], {id: 1, name: 'kate', age: 15}, 26, 3333, 'bye!'];
+let arr = [];
+arr[0] = 'hi!';
+arr[1] = 52;
+arr[2] = true;
+arr[3] = 567;
+arr[4] = false;
+arr[5] = [25, 15];
+arr[6] = {id: 1, name: 'kate', age: 15};
+arr[7] = 26;
+arr[8] = 3333;
+arr[9] = 'bye!';
 console.log(arr[0]);
 console.log(arr[1]);
 console.log(arr[2]);
