@@ -112,7 +112,7 @@
 // for (const product of products) {
 //     document.write(`<div class="product-card">
 //                         <h3 class="product-title">${product.title}. Price - ${product.price}UAH</h3>
-//                         <img src="${product.image}" alt="${product.title}" class="product-image"
+//                         <img src="${product.image}" alt="" class="product-image"
 //                     </div>`);
 // }
 
