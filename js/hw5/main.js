@@ -83,17 +83,17 @@
 
 // - створити функцію яка повертає найменьше число з масиву
 // function arrMin(arr) {
-//     let min = 10000000;
-//     for (let i = 0; i < arr.length; i++) {
-//         if (arr[i] < min) {
-//             min = arr[i];
+//     let min = arr[0];
+//     for (const arrElement of arr) {
+//         if (arrElement < min) {
+//             min = arrElement;
 //         }
 //     }
 //     console.log(min);
 //     return min;
 // }
 //
-// arrMin([100, 45, 37, 5, 48, 3, 59]);
+// arrMin([100, 45, 37, 5, 48, 3, 59, 1]);
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 // function arrSum(arr) {
