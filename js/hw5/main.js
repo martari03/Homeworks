@@ -49,12 +49,21 @@
 //     for (let i = 0; i < quantity; i++) {
 //         document.write(`<li>${text}</li>`);
 //     }
+//     document.write((`</ul>`));
 // }
 //
-// document.write((`</ul>`));
-//
-// ulCreator('hi', 5);
+// ulCreator('hi', 3);
+
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+// function listCreator(arr){
+//     document.write(`<ul>`);
+//     for (const arrElement of arr) {
+//         document.write(`<li>${arrElement}</li>`);
+//     }
+//     document.write(`</ul>`);
+// }
+//
+// listCreator([5, 'hi', true, false, 85, 'bye']);
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ.
 // Для кожного об'єкту окремий блок.
