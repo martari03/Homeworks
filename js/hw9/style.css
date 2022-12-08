@@ -53,7 +53,7 @@
     width: 30vw;
 }
 
-.wrapper, .row {
+.table, .row {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
