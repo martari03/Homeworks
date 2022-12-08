@@ -52,3 +52,22 @@
 .width {
     width: 30vw;
 }
+
+.wrapper, .row {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: black solid 1px;
+    align-items: center;
+    justify-content: flex-start;
+    background: #06bcd4;
+}
+
+.column {
+    background: #06bcd4;
+    display: flex;
+    box-sizing: border-box;
+    border: black solid 1px;
+    align-items: center;
+    justify-content: flex-start;
+}

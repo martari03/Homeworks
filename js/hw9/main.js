@@ -248,3 +248,33 @@
 //         document.body.appendChild(p);
 //     }
 // }
+
+// *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+// При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+// (Додаткова частина для завдання)
+// let row = document.createElement('input');
+// row.name = 'row';
+// row.type = 'number';
+// let column = document.createElement('input');
+// column.name = 'column';
+// column.type = 'number';
+// let text = document.createElement('input');
+// text.name = 'text';
+// text.type = 'text';
+// let button = document.createElement('button');
+// button.innerText = 'Click me!'
+// document.body.append(row, column, text, button);
+// button.onclick = function (e) {
+//     let mainDiv = document.createElement('div');
+//     mainDiv.classList.add('wrapper');
+//     for (let i = 0, j = 0; i < +row.value, j < +column.value; i++, j++) {
+//         let rows = document.createElement('div');
+//         rows.classList.add('row');
+//         let columns = document.createElement('div');
+//         columns.classList.add('column');
+//         columns.innerText = `${text.value}`;
+//         rows.appendChild(columns);
+//         mainDiv.appendChild(rows);
+//     }
+//     document.body.appendChild(mainDiv);
+// }
