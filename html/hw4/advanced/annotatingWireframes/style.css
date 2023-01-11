@@ -1,0 +1,6 @@
+.div1, .div2, .div3, .div4, .div5, .div6, .div7 {
+    box-sizing: border-box;
+    display: flex;
+    background: #f4f4f4;
+    position: absolute;
+}
